@@ -1,0 +1,85 @@
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 25px;
+  font-family: 'Blinker', sans-serif;
+}
+#banner{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/1181717/pexels-photo-1181717.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 22px;
+  font-weight: lighter;
+}
+#banner a {
+  /*color: yellow;*/
+  /*opacity: 0.8;*/
+  font-size: 30px;
+  background-color: seagreen;
+  border-color: white;
+  /*font-weight: lighter;*/
+  border-radius: 50px;
+}
+#banner a:hover {
+  font-size: 30px;
+  color: seagreen;
+  background-color: white;
+  opacity: 0.9;
+  border-color: white;
+  border-radius: 50px;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: right;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  color: black;
+  /*text-align: center;*/
+}
+.card img{
+  
+  padding: auto;
+  margin: auto;
+}
+.card h2{
+  /*text-transform: uppercase;*/
+}
+.card p {
+  font-size: 18px;
+  text-align: left;
+  opacity: .7;
+}
+#container-border{
+  border-style: solid;
+  border-width: 10px;
+  border-color: seagreen;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#footer{
+  text-align: right;
+  font-size: 15px;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 25px;
+}
+#footer a:hover {
+  color: white;
+}
